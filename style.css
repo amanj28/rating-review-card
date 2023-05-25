@@ -1,0 +1,96 @@
+body {
+  background: #e8e9ef;
+  font-size: 8px;
+}
+h1 {
+    background-image: linear-gradient(to right, #ff8618 0%, #ff8618 100%);
+    background-repeat: repeat-x;
+    background-position: 0 12px;
+    background-size: 100% 4px;
+}
+.review-card {
+    border-radius: 14px;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 402px;
+    background: #E8E9EF;
+    height: 188px;
+    box-shadow: 5px 5px 10px #b3b3b3, -5px -5px 10px #ffffff;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review-image {
+  width: 60px;
+  margin-right: 10px;
+  height: 12%;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+    color: #ff8618;
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 13%;
+    left: 46%;
+    margin-right: -50%;
+}
+
+.rating-value {
+    margin-left: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 15%;
+    left: 72%;
+    margin-right: -50%;
+    font-size: 12px;
+}
+
+.review-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-comment {
+  margin-bottom: 20px;
+}
+
+.comment-box {
+    font-family: serif;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #e8e9ef;
+    border-radius: 4px;
+    resize: vertical;
+    background: #E8E9EF;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+
+.submit-button {
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    background: #e8e9ef;
+    box-shadow: 6px 6px 12px #c5c6cb, -6px -6px 12px #ffffff;
+    position: absolute;
+    top: 76%;
+    left: 40%;
+}
+
+.submit-button:hover {
+  background-color: #e8e9ef;
+}
+
