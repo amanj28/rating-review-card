@@ -1,0 +1,22 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <div class="review-card">
+    <div class="review-header">
+      <img class="review-image" src="https://i.postimg.cc/gjyT0RDf/Group-48095562.png" alt="Reviewer Image" width="50" height="60">
+      <h1>Amanselfcoder</h1>
+      
+      <div class="review-rating">
+        <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="rating-value">5.0</span>
+      </div>
+    </div>
+    <div class="review-body">
+      <div class="review-comment">
+        <textarea class="comment-box" placeholder="Write your comment here"></textarea>
+      </div>
+      <button class="submit-button">Submit</button>
+    </div>
+  </div>
+</html>
